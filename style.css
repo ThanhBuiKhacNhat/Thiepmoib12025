@@ -71,3 +71,19 @@ body{
     font-size: 25px;
     font-family: 'Fredoka One', cursive;
 }
+
+
+
+.image-container {
+    position: relative; /* Tạo bối cảnh cho các phần tử con nếu cần */
+    display: inline-block; /* Giúp hình ảnh vừa với nội dung */
+}
+
+.image-container img {
+    display: block; /* Loại bỏ khoảng trống dưới hình ảnh */
+    width: 100px; /* Kích thước chiều rộng nhỏ hơn */
+    height: 100px; /* Giữ nguyên tỉ lệ hình ảnh */
+}
+
+
+
