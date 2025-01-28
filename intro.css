@@ -1767,7 +1767,7 @@ body{
 }
 .box-content .right .content .title h1{
     /* margin-top: -40px; */
-    transition: 0.5s;
+    transition: 0s;
 }
 .slider3:hover .title h1{
     animation: title 2s forwards;
@@ -1803,7 +1803,7 @@ body{
     width: 250px;
     height: 80px;
     overflow: hidden; 
-    margin-left: 50px;  
+    margin-left: 150px;  
 }
 .box-content .right .content h3{
     font-size: 18px;
@@ -1816,7 +1816,7 @@ body{
 }
 @keyframes fixedContent{
     0%{
-        margin-top: -150px;
+        margin-top: -50px;
     }
     100%{
         margin-top: 0px;
